@@ -5,7 +5,7 @@ function Navbar() {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-primary">
         <a class="navbar-brand" href="#">
-          Navbar
+          <b>React Meal</b>
         </a>
         <button
           class="navbar-toggler"
@@ -21,13 +21,13 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="localhost">
-              Home <span class="sr-only">(current)</span>
+              <b>Home </b> <span class="sr-only"></span>
             </a>
             <a class="nav-item nav-link" href="#">
-              Order
+              <b>Order</b>
             </a>
             <a class="nav-item nav-link" href="#">
-              contact us
+              <b>contact us</b>
             </a>
           </div>
         </div>
