@@ -31,6 +31,18 @@ function Navbar() {
             </a>
           </div>
         </div>
+        <form>
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          ></input>
+        </form>
+
+        <button class="btn btn-outline-success" type="submit">
+          Search
+        </button>
       </nav>
     </div>
   );
